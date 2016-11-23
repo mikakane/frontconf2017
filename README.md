@@ -15,7 +15,7 @@ clone して`npm i`すれば動きます。
 ````
 $ git clone https://github.com/chatbox-inc/frontend
 $ npm i
-````
+```` 
 
 `gulp` ウォッチ
 
