@@ -5,7 +5,9 @@ general:
       - gh-pages
 
 machine:
-  timezone: Asia/Tokyo
+  node:
+    version: 6.1.0
+    timezone: Asia/Tokyo
 
 deployment:
   publish:
