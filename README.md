@@ -17,5 +17,10 @@ $ git clone https://github.com/chatbox-inc/frontend
 $ npm i
 ````
 
+`gulp` ウォッチ
 
+`gulp server` 開発用サーバ
 
+`gulp build` ビルド
+
+masterブランチへのpushで自動で公開されるので、PR運用お願いします。
