@@ -7,7 +7,7 @@ general:
 machine:
   node:
     version: 6.1.0
-    timezone: Asia/Tokyo
+  timezone: Asia/Tokyo
 
 deployment:
   publish:
