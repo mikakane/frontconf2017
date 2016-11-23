@@ -1,0 +1,18 @@
+# circle.yml
+general:
+  branches:
+    ignore:
+      - gh-pages
+
+machine:
+  timezone: Asia/Tokyo
+
+deployment:
+  publish:
+    branch: master
+    commands:
+      - git config --global user.name "circleci"
+      - git config --global user.email "circleci@chatbox-inc.com"
+      - git commit -m build public
+      - git subtree split --branch gh-pages --prefix publid
+      - git push origin gh-pages:gh-pages -f
